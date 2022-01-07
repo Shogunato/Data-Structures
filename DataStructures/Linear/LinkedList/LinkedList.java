@@ -5,7 +5,7 @@ public class LinkedList<Thing>{
     private Node<Thing> refNode;
     private int listSize;
 
-    LinkedList(){
+    public LinkedList(){
         this.refNode = null;
         this.listSize = 0;
     }
